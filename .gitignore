@@ -1,0 +1,19 @@
+# Go build artifacts
+/attested-tls-demo
+/server
+/client
+/relay
+*.exe
+*.test
+*.out
+
+# Demo PKI material (regenerated on every run)
+/tmp/
+ca.pem
+relay-ca.pem
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
